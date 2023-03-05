@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport">
+    <title>Document</title>
+</head>
+<body>
+<ul>
+    {% for employee in employees %}
+        <li>
+        <Div>
+            {{ employee.first_name }} {{ employee.last_name }}
+        </Div>
+        <div>
+           Department: {{ employee.department.name }}
+        </div>
+        <div>
+            Experience: {{ employee.years_of_experience }}
+            Age: {{ employee.age }}
+        </div>
+
+        </li>
+    {% endfor %}
+</ul>
+</body>
+</html>
