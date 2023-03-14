@@ -1,0 +1,12 @@
+<h1> {{ object.full_name }}</h1>
+
+
+<form method="get" action="{% url 'index' %}">
+    {{ form }}
+    <a href="{% url 'index' %}"></a>
+    {% csrf_token %}
+    <button>To Index
+
+
+</button>
+</form>
