@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>It returns something</title>
+
+</head>
+
+<body>
+<h1>
+    {{ title|capfirst }} : {{ value }}
+
+</h1>
+<h2>
+    {{ info.address }}
+</h2>
+<h3>
+    {{ time_now }}
+</h3>
+<div>
+    {% if items %}
+        {{ items|join:', ' }}
+    {% else %}
+        No items
+    {% endif %}
+</div>
+<div>
+    {% for item in items %}
+       <li>{{ item }}</li>
+    {% endfor %}
+</div>
+
+</body>
+</html>
