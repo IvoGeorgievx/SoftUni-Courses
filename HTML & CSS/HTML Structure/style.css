@@ -1,0 +1,16 @@
+body {
+  background: #f9f7cf;
+  padding: 15px;
+  
+}
+
+header,
+footer {
+  background: #f2dcbb;
+  padding: 15px;
+}
+
+section {
+  width: 480px;
+  
+}
