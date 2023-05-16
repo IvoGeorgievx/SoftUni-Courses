@@ -1,20 +1,17 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
 body {
-  font-family: "Helvetica", sans-serif;
-  line-height: 1.5;
-  font-size: 18px;
-  background: #ededed;
+  font-family: "Montserrat", sans-serif;
+  padding: 16px;
 }
 
-h2 {
-  text-decoration: underline;
-  padding: 20px;
-  margin: 10px 5px;
-  letter-spacing: 3px;
-  background: #3b516b;
-  border-radius: 10px;
-  color: floralwhite;
+th {
+  background: lightblue;
 }
 
-li {
-  margin-left: 20px;
+th,
+td {
+  width: 144px;
+  height: 32px;
+  border: 1px solid #ccc;
+  padding-left: 5px;
 }
