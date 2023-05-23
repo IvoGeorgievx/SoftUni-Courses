@@ -1,0 +1,15 @@
+* {
+    font-family: Helvetica, sans-serif;
+}
+
+body {
+    padding-left: 3em;
+}
+
+nav {
+    display: inline-block;
+}
+
+nav li {
+    display: inline-block;
+}
