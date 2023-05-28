@@ -1,9 +1,17 @@
-* {
-    font-family: Helvetica, sans-serif;
+html {
+    font: 16px/1.5 Helvetica, sans-serif;
 }
 
 body {
-    padding-left: 3em;
+    font: inherit;
+}
+
+body > header {
+    border-bottom: 2px solid black;
+} 
+header h1 {
+    text-transform: uppercase;
+    display: inline-block;
 }
 
 nav {
