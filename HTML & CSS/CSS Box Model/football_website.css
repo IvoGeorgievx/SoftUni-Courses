@@ -1,0 +1,54 @@
+body {
+  font: 16px/1.5 Helvetica, sans-serif;
+}
+
+main {
+  padding: 4em;
+  max-width: 65%;
+}
+nav {
+    background-color: gray;
+    overflow: auto;
+    border-radius: 5px;
+}
+nav > h1 {
+  display: inline;
+}
+nav > ul {
+  display: inline;
+  float: right;
+}
+nav > ul > li {
+  display: inline-block;
+  margin-left: 3em;
+  margin-right: 2em;
+}
+
+nav > ul > li > a {
+  text-decoration: none;
+}
+
+article > header {
+  border-top: 5px solid black;
+  border-bottom: 5px solid black;
+  text-align: center;
+}
+
+section > p:first-child {
+  text-indent: 2em;
+}
+
+p::after {
+  display: block;
+  content: '';
+  clear: both;
+}
+
+img { 
+  width: 350px;
+  height: 350px;
+}
+
+img.align-right {
+  float: right;
+}
