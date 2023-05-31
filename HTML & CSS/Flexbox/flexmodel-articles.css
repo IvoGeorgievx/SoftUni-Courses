@@ -1,0 +1,20 @@
+html {
+  font: 16px 1.5 Helvetica, sans-serif;
+}
+h2 {
+  font: 16px 1.2 Georgia, sans-serif;
+}
+
+section {
+  display: flex;
+  max-width: 70vw;
+  border: 2px solid black;
+  justify-content: space-between;
+  /* height: 600px; */
+  align-items: center;
+}
+
+section > article {
+  margin: 1em;
+  padding: 1em;
+}
