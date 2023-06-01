@@ -1,0 +1,29 @@
+body {
+  font: 17px/1.5 Georgia, sans-serif;
+  padding: 3em;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2px solid rgb(0,0,0);
+}
+
+nav {
+  display: flex;
+}
+
+nav > ul {
+  display: flex;
+  list-style: none;
+}
+
+nav > ul li {
+  margin-left: 1.5em;
+}
+
+nav > ul > li > a {
+  text-decoration: none;
+  color: rgb(0,153,0);
+}

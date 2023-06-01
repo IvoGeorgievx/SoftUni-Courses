@@ -1,0 +1,19 @@
+font {
+  font-size: 20px;
+  font-family: Helvetica, sans-serif;
+}
+
+.container {
+  border: 2px solid red;
+  display: flex;
+  max-width: 15vw;
+  height: 35rem;
+  flex-direction: column;
+}
+
+span {
+  border: 1px solid black;
+  /* flex: 1; */
+}
+
+
