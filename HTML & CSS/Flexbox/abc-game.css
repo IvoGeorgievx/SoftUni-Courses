@@ -1,19 +1,31 @@
-font {
-  font-size: 20px;
+body {
   font-family: Helvetica, sans-serif;
+  font-size: 20px;
 }
 
 .container {
-  border: 2px solid red;
   display: flex;
   max-width: 15vw;
-  height: 35rem;
+  height: 23rem;
+  border: 2px solid red;
+  align-items: flex-start;
   flex-direction: column;
+  flex-wrap: wrap;
+  gap: 1em;
+  text-align: center;
+
 }
 
-span {
+.container span {
   border: 1px solid black;
-  /* flex: 1; */
+  width: 3em;
+  flex: 0 0 auto;
+  display: block;
+  
 }
 
-
+span:nth-child(1){order: 1;}
+span:nth-child(3){order: 2;}
+span:nth-child(7){order: 3;}
+span:nth-child(10){order: 4;}
+/* span:nth-child(11){order: ;} */

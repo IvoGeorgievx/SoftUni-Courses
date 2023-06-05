@@ -1,20 +1,46 @@
-.html {
+* {
   box-sizing: border-box;
 }
 
-.container {
-  height: 20em;
-  max-width: 65vw;
-  border: 2px solid red;
+div,
+section {
   display: flex;
-  justify-content: center;
   align-items: center;
+  
+}
+.container {
+  max-width: 65vw;
+  align-items: stretch;
+}
+
+.week {
+  flex-wrap: wrap;
+}
+
+span {
+  display: block;
+  padding: 1em;
+}
+.week span:nth-child(1),
+.week span:nth-child(7) {
+  flex-basis: 100%;
+}
+
+.week span:nth-child(9) {
+  order: 1;
+}
+
+.notes {
+  flex-direction: column;
+
 }
 
 span {
   border: 1px solid black;
+  flex: 1 1 auto;
+  text-align: center;
 }
 
-.workweek .workweek-label {
-    flex: 1 0 100%
+.notes span {
+  flex: 1 0 50%;
 }

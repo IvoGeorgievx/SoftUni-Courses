@@ -1,0 +1,26 @@
+body {
+  font: 16px/1.6 Helvetica, sans-serif;
+  background-color: rgb(238, 238, 238);
+  margin: 7em;
+}
+
+.page {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+article > h2,
+h3,
+aside > h3 {
+  font-family: Georgia, serif;
+}
+
+header > h1 {
+    border-bottom: 2px solid black;
+    margin-bottom: 1em;
+    padding-bottom: 1em;
+}
+
+header {
+  flex: 1 0 100%;
+}

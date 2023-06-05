@@ -1,0 +1,32 @@
+body {
+    background-color: gray;
+    padding: 2em;
+    display: flex;
+}
+
+
+.gallery
+ul,
+li {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+img {
+    width: 250px;
+    height: 250px;
+    padding: 1.3em;
+    background-color: white;
+    border-radius: 2px;
+}
+ul {
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+li {
+    border: 10px solid black;
+    align-items:center;
+    margin: 1em;
+    
+}
