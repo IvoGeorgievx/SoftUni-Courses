@@ -1,0 +1,20 @@
+body {
+  display: flex;
+  align-items: center;
+  background-color: rgb(238, 238, 238);
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.container {
+    display: flex;
+    gap: 2em;
+}
+
+.media {
+    display: flex;
+    width: 3em;
+    flex: 0 0 5em;
+
+
+}

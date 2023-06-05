@@ -1,26 +1,71 @@
 body {
-  font: 16px/1.6 Helvetica, sans-serif;
   background-color: rgb(238, 238, 238);
-  margin: 7em;
+  font: 19px/1.5 Helvetica, sans-serif;
+  padding: 3rem;
 }
 
 .page {
   display: flex;
   flex-wrap: wrap;
+  gap: 2em;
 }
 
-article > h2,
-h3,
-aside > h3 {
+img {
+  background-color: rgb(255, 255, 255);
+}
+
+blockquote {
   font-family: Georgia, serif;
 }
 
-header > h1 {
-    border-bottom: 2px solid black;
-    margin-bottom: 1em;
-    padding-bottom: 1em;
+a {
+  color: rgb(0, 153, 0);
 }
 
-header {
-  flex: 1 0 100%;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Georgia, serif;
 }
+
+.page > header {
+  flex-basis: 100%;
+  border-bottom: 2px solid black;
+}
+.page > main {
+  flex: 1 1 45rem;
+}
+.page > aside {
+  flex: 1 1 10rem;
+}
+
+blockquote {
+  border-left: 0.8px solid gray;
+  padding: 1em;
+  opacity: 0.5;
+  width: 40%;
+  float: right;
+  margin: 0 1em 1em 1em;
+  font-style: italic;
+}
+
+.first-img {
+  /* display: block; */
+  padding: 0.6em;
+  box-shadow: 0 0 1em 0 rgba(0, 0, 0, 0.8);
+  border: 1.5px solid black;
+  float: right;
+  margin: 0 1em 1em 1em;
+}
+
+.second-img {
+  padding: 0.6em;
+  box-shadow: 0 0 1em 0 rgba(0, 0, 0, 0.8);
+  border: 1.5px solid black;
+  float: left;
+  margin: 1em 1em 0 0;
+}
+
