@@ -1,0 +1,16 @@
+body {
+    height: 100vh;
+    display: flex;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.center ul li {
+    display: flex;
+}
+
