@@ -1,0 +1,297 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font: 13px/1.2 Arial, sans-serif;
+}
+
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0 15px 15px;
+  margin-left: 5em;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-left: 1.5em;
+  padding-right: 3em;
+}
+
+nav li a {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+}
+
+.first-section {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 4em;
+  background-color: rgb(133 220 255);
+  border-top: 3px solid lightgray;
+  height: 350px;
+}
+
+.first-section-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 10em;
+  width: 35%;
+}
+
+.first-section-content h2 {
+  margin-bottom: 1em;
+}
+
+.links {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.first-section-image {
+  width: 45em;
+}
+
+.first-section-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.donate {
+  margin-top: 2em;
+  width: 35%;
+  height: 3em;
+  border-radius: 8px;
+}
+
+.newsletter {
+  margin-top: 2em;
+  margin-left: 1em;
+  width: 45%;
+  background-color: black;
+  color: white;
+  border-radius: 8px;
+}
+
+.second-section > h2,
+.subtitle {
+  text-align: center;
+}
+
+.second-section h2 {
+  margin: 1.5em 0;
+}
+
+.subtitle {
+  font-size: 1.4em;
+  padding: 0 35%;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-around;
+}
+
+.card {
+  margin-top: 5em;
+  width: 15%;
+  text-align: center;
+}
+
+i {
+  font-size: 12em;
+  color: rgb(133 220 255);
+  margin-bottom: 0.2em;
+}
+
+.third-section {
+  background-color: rgb(133 220 255);
+  /* height: 500px; */
+}
+
+.third-section h2 {
+  text-align: center;
+  margin: 2em 0;
+  padding-top: 2em;
+  font-size: 2.5em;
+}
+
+.work {
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+  justify-content: center;
+}
+
+.work-left {
+  flex-direction: column;
+  width: 35%;
+
+}
+
+.work-right {
+  flex-direction: column;
+  width: 35%;
+}
+
+.work-left li {
+  margin: 1em auto;
+}
+
+.work-right li {
+  margin: 1em auto;
+}
+
+.work-right {
+  width: 35%;
+}
+
+.mission {
+  margin: 3em 0;
+  padding: 1em;
+  background-color: black;
+  color: white;
+  border-radius: 8px;
+  width: 10%;
+}
+
+
+
+.forth-section h2,
+.forth-section p {
+  text-align: center;
+  margin: 2em 0;
+}
+
+.forth-section h2 {
+  font-size: 2.5em;
+  font-weight: bold;
+}
+
+.animal-images {
+  display: flex;
+  gap: 5em;
+  justify-content: center;
+}
+
+.animal-images img {
+  width: 400px;
+  height: auto;
+}
+
+.fifth-section h2 {
+  text-align: center;
+  margin: 2em 0;
+  padding-top: 2em;
+  font-size: 2em;
+}
+
+.ff-content-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+}
+
+.fs-content {
+  margin: 0 3em;
+  border: 1px solid gray;
+  width: 75%;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.fs-content h4 {
+  padding: 1.5em;
+  background-color: #fff;
+  background-color: rgb(133 220 255);
+}
+
+.fs-content p {
+  margin: 2.5em 0;
+  padding: 1.5em;
+}
+
+.sixth-section {
+  display: flex;
+  /* justify-content: center; */
+  margin-top: 10em;
+}
+
+.six-picture {
+  width: 60%;
+  height: auto;
+}
+
+.six-picture img {
+  height: 100%;
+  width: 75%;
+  object-fit: contain;
+}
+
+.six-content {
+  display: flex;
+  flex-direction: column;
+  align-items: self-start;
+  justify-content: center;
+}
+
+.six-content h3 {
+  font-size: 2em;
+  margin-bottom: 1.5em;
+}
+
+.six-content p,
+.six-content input {
+  margin-bottom: 2em;
+}
+
+.six-content p {
+  width: 70%;
+}
+
+.six-content input {
+  width: 29%;
+  padding: 0.7em;
+  border-radius: 8px;
+  border: 2px solid gray;
+  overflow: hidden;
+}
+
+.send-btn {
+  width: 20%;
+  padding: 1em;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2em 3.5em;
+}
+
+.socials li {
+  display: inline-block;
+  margin: 0.5em;
+}
+
+#twitter-icon,
+#facebook-icon,
+#instagram-icon {
+  color: black;
+  font-size: 2em;
+}
