@@ -1,0 +1,194 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font: 11px/1.3 Roboto, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Abril Fatface";
+}
+
+h2 {
+  font-size: 2em;
+}
+
+.page {
+  display: grid;
+  grid-template-columns: 3fr 1.3fr;
+  grid-template-rows: 3fr 1.5fr 0.8fr;
+  grid-template-areas:
+    "main main"
+    "section aside"
+    "footer aside";
+  /* gap: 1em; */
+  height: 100vh;
+  width: 53%;
+  padding: 0 2.5em;
+}
+
+.page main {
+  grid-area: main;
+  display: flex;
+  flex-direction: column;
+  background: url(image.jpg);
+  background-size: cover;
+  /* background-repeat: no-repeat; */
+  background-position: center;
+}
+
+.box1 {
+  width: 15em;
+  box-shadow: 3px 2px 3px 2px rgba(0, 0, 0, 0.2);
+  margin: 4em 0 0 3em;
+  padding: 2em;
+}
+
+.box1 h1:after {
+  display: block;
+  content: "";
+  width: 4em;
+  border-radius: 15px;
+  color: white;
+  border: 2px solid white;
+  margin: 0.5em 0;
+}
+
+blockquote {
+  color: white;
+  width: 22em;
+  padding-top: 5em;
+  padding-bottom: 1.2em;
+  padding-left: 0.8em;
+  padding-right: 0.8em;
+  text-align: right;
+  align-self: flex-end;
+  background: rgb(171, 145, 112);
+  background: linear-gradient(
+    90deg,
+    rgba(171, 145, 112, 1) 0%,
+    rgba(208, 184, 165, 1) 75%,
+    rgba(215, 198, 178, 1) 99%
+  );
+  margin-right: 1em;
+  box-shadow: 3px 2px 3px 2px rgba(0, 0, 0, 0.2);
+}
+
+.page section {
+  grid-area: section;
+  background-color: lightgray;
+}
+
+.page aside {
+  grid-area: aside;
+  background-color: #685b5b;
+}
+
+.page footer {
+  grid-area: footer;
+  background-color: lightgray;
+}
+
+section {
+  padding-left: 4em;
+  padding-right: 4em;
+  padding-top: 2em;
+}
+
+section p {
+  margin: 1em auto;
+}
+
+i {
+  margin-right: 0.6em;
+}
+
+section span {
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+aside {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.info {
+  padding-left: 1.3em;
+}
+
+.info .numbers {
+  color: white;
+  display: block;
+  font-size: 3em;
+  font-weight: 100;
+  opacity: 0.8;
+}
+
+.info span:last-child {
+  text-transform: uppercase;
+}
+
+footer {
+  padding-left: 4em;
+}
+
+footer h2 {
+  /* border-bottom: 1px solid black; */
+  margin: 1em auto;
+}
+
+p {
+  opacity: 0.8;
+}
+
+footer h2 {
+  border-bottom: 2px solid black;
+}
+
+input {
+    background-color: gray;
+    /* font-size: 1.4em; */
+    border-radius: 8px;
+    padding: 0.3em;
+    /* color: white; */
+}
+
+.fields {
+    margin-top: 1em;
+    display: flex;
+    gap: 1em;
+}
+
+a {
+    display: inline-block;
+    background-color: green;
+    padding: 0.6em;
+    border-radius: 8px;
+    text-decoration: none;
+    color: white;
+    width: 8em;
+    text-align: center;
+}
+
+::placeholder {
+    color: white;
+}
+
+footer span {
+    display: inline-block;
+}
