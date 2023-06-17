@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font: 16px/1.2 Mulish, sans-serif;
+  display: flex;
+  background-image: url("background.png");
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  background-image: url("form-background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+    /* width: 785px; */
+  border: 2px solid black;
+  /* height: 525px; */
+  overflow: hidden;
+  display: flex;
+  justify-content: flex-start;
+  border-radius: 12px;
+}
+
+.names {
+  display: inline-block;
+}
+
+.names input[type="text"] {
+  width: 50%;
+}
+
+label {
+  font-size: 0.9em;
+  opacity: 0.7;
+}
+
+input {
+  border-radius: 8px;
+  border: 1px solid gray;
+  padding: 0.6em;
+}
+
+.fields {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 4em 5em;
+  gap: 1em;
+  width: 50%;
+}
+
+button {
+  width: 40%;
+  align-self: center;
+  padding: 0.7em;
+  margin-bottom: 1em;
+  border-radius: 25px;
+  color: white;
+  background-color: rgb(109, 28, 28);
+}
+
+h2 {
+  margin: 1em auto;
+}
+
+.terms {
+  display: flex;
+  align-items: center;
+}
+
+.terms input[type="checkbox"] {
+  margin-right: 0.5em;
+}
+
+.names {
+    display: flex;
+    gap: 1em;
+}
+
+.names input[type="text"] {
+    display: inline-block;
+}
+
+.names label {
+    display: block;
+}
+
+
