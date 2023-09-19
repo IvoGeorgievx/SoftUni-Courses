@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap");
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-image: url(images/background.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	font: 16px/1.5 "Inter", sans-serif;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+}
+
+img {
+	width: 184px;
+	height: 184px;
+	border: 1px solid black;
+	clip-path: circle(50% at center);
+	object-fit: cover;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 3em;
+	gap: 1em;
+}
+
+.left {
+	display: flex;
+	flex-direction: column;
+	gap: 1em;
+	width: 45%;
+	height: 695px;
+	align-items: center;
+	justify-content: center;
+}
+
+section {
+	background-color: white;
+	padding: 20px;
+}
+
+.aside {
+	display: flex;
+	flex-direction: column;
+	width: 25%;
+	height: 873px;
+	justify-content: space-between;
+	padding: 3em 2em;
+}
+
+.main {
+	display: flex;
+	flex-direction: column;
+	padding-left: 3em;
+	padding-top: 3em;
+	padding-bottom: 3em;
+}
+
+.main img {
+	float: right;
+}
+
+i {
+	font-size: 7em;
+}
+
+.aside-img-box span {
+	display: inline-block;
+}
+.aside p,
+main p {
+	opacity: 0.7;
+}
+.aside-img-box {
+	display: flex;
+	padding: 2em 1em;
+	border-top: 1px solid lightgray;
+}
+
+.img-box-content {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-left: 20px;
+}
+
+.content-box {
+	display: flex;
+	gap: 20px;
+}
+
+.content-box p {
+	width: 80%;
+}
+
+span {
+	font-weight: bold;
+}
+
+.content-box {
+	display: flex;
+	align-items: center;
+}
+
+.name {
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+.content-box p {
+	width: 75%;
+	padding-right: 4em;
+}
+
+.aside-img-box span:last-child {
+	font-weight: normal;
+}
+
+.aside-img-box img {
+	height: 80px;
+	width: 80px;
+}
